@@ -1,0 +1,13 @@
+prefix=/home/faizan/miniconda3/envs/project
+exec_prefix=/home/faizan/miniconda3/envs/project
+libdir=/home/faizan/miniconda3/envs/project/lib
+sharedlibdir=/home/faizan/miniconda3/envs/project/lib
+includedir=/home/faizan/miniconda3/envs/project/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
